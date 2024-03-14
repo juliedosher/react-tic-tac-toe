@@ -11,6 +11,7 @@ body {
 h1 {
   margin-top: 0;
   font-size: 22px;
+  text-align: center;
 }
 
 h2 {
@@ -83,8 +84,54 @@ body {
 .game {
   display: flex;
   flex-direction: row;
+  margin-left: 45vw;
+  margin-top: 3vh;
+  width: 100vw;
 }
 
 .game-info {
   margin-left: 20px;
+}
+
+.header {
+  display: inline-block;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90vw
+}
+
+.header h1 {
+  display: inline;
+}
+
+
+.header button {
+  float: right;
+}
+
+.root {
+  margin-left: 20vw;
+}
+
+.leaderboard {
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leaderboard table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leaderboard table {
+  margin-top: 3vh;
+}
+
+.leaderboard td {
+  padding-inline: 10px;
 }
