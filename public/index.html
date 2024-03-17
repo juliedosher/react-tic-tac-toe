@@ -4,6 +4,7 @@
     	<meta charset="UTF-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<title>Lewis-Tac-Azure</title>
+		<script src="jquery-3.7.1.min.js"></script>
   	</head>
   	<body>
 		<div class="header">
@@ -15,24 +16,25 @@
 
 		<div class="leaderboard">
 			<h1>Leader Board</h1>
-			<table>
+			<table id="leaderboardTable">
 				<tr>
 					<td><b>Name</b></td>
 					<td><b>Wins</b></td>
 				</tr>
-				<tr id="player1">
-					<td>Player 1</td>
-					<td>0</td>
+				<tr>
+					<td id="name1">Player 1</td>
+					<td id="score1">0</td>
 				</tr>
-				<tr id="player2">
-					<td>Player 2</td>
-					<td>0</td>
+				<tr>
+					<td id="name2">Player 2</td>
+					<td id="score2">0</td>
 				</tr>
 				<tr id="player3">
-					<td>Player 3</td>
-					<td>0</td>
+					<td id="name3">Player 3</td>
+					<td id="score3">0</td>
 				</tr>
 			</table>
 		</div>
   	</body>
+	<script src="./script.js"></script>
 </html>
