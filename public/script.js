@@ -1,5 +1,5 @@
-//const serverURL = 'https://tic-tac-toe-server.azurewebsites.net'     // production site
-const serverURL = 'http://localhost:3000'      // testing site
+const serverURL = 'https://tic-tac-toe-server.azurewebsites.net'     // production site
+//const serverURL = 'http://localhost:3000'      // testing site
 
 const getLeadersExtenstion = '/api/GetLewisTacToeLeaders'
 
